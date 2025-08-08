@@ -3353,7 +3353,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "056e1db6-3b4b-45ff-9729-781d9f73e149")
-		(property "Reference" "C3"
+		(property "Reference" "C103"
 			(at 114.3 57.1562 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C3")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c490cca-f73b-4419-83ba-ab097d7ceb04")
-		(property "Reference" "Q1"
+		(property "Reference" "Q101"
 			(at 67.31 69.8501 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "Q1")
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -3540,7 +3540,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0e8985bf-75e1-45d8-91fa-7207573ca694")
-		(property "Reference" "JP1"
+		(property "Reference" "JP101"
 			(at 167.64 78.232 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "JP1")
+					(reference "JP101")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12fe4654-f1a5-47d9-95bc-0ca6ea5cb234")
-		(property "Reference" "C2"
+		(property "Reference" "C102"
 			(at 105.41 88.9062 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C2")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1597c053-004b-4edd-9c94-2b1659b16c3b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0108"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR08")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c0ca1c3-44c7-4df4-8336-ad81fbb43431")
-		(property "Reference" "U2"
+		(property "Reference" "U102"
 			(at 142.24 69.85 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "U2")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -3859,7 +3859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cfc6a9b-5267-4934-9f5d-bb2b77a12955")
-		(property "Reference" "Q2"
+		(property "Reference" "Q102"
 			(at 67.31 82.5499 0)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "Q2")
+					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -3968,7 +3968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df1355a-d4a2-472b-a031-7bbe149f6a0b")
-		(property "Reference" "C5"
+		(property "Reference" "C105"
 			(at 144.78 31.7562 0)
 			(effects
 				(font
@@ -4031,7 +4031,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C5")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20cc3432-0fe6-455b-a606-15a8e9371f19")
-		(property "Reference" "C1"
+		(property "Reference" "C101"
 			(at 105.41 81.2862 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C1")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -4123,9 +4123,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "223201c9-4cb5-4cf4-a12a-f395d9eab2c5")
-		(property "Reference" "H5"
+		(property "Reference" "H108"
 			(at 46.736 76.708 90)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H5")
+					(reference "H108")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2353afb6-b3bc-43de-8b72-c0442a88f91b")
-		(property "Reference" "R3"
+		(property "Reference" "R103"
 			(at 179.07 76.2 90)
 			(effects
 				(font
@@ -4253,7 +4253,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "R3")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -4266,9 +4266,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23d2ffb9-7a88-49ba-a48b-eab9510fca88")
-		(property "Reference" "H10"
+		(property "Reference" "H109"
 			(at 46.736 81.788 90)
 			(effects
 				(font
@@ -4319,7 +4319,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H10")
+					(reference "H109")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe9f13f-51a2-4fe5-a361-ef022181a669")
-		(property "Reference" "R4"
+		(property "Reference" "R104"
 			(at 179.07 85.09 90)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "R4")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38154bce-7804-4514-a764-45ea8e189a5c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0109"
 			(at 161.29 43.18 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR09")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3950e805-59bd-4245-91a4-96bee38f83e6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0107"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR07")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4540,9 +4540,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b0d9851-df42-4edc-a0b9-81a998faedf1")
-		(property "Reference" "H9"
+		(property "Reference" "H104"
 			(at 39.116 87.376 90)
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H9")
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -4606,9 +4606,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3cee1d85-279b-4d76-b862-d5cac5169146")
-		(property "Reference" "H7"
+		(property "Reference" "H102"
 			(at 27.686 87.376 90)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H7")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -4672,9 +4672,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "437ccfa5-7adb-4211-96a0-59155150e385")
-		(property "Reference" "H6"
+		(property "Reference" "H101"
 			(at 27.686 82.296 90)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H6")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e4066f0-d4a4-45c8-b61b-1dd33b208cd5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0103"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR03")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4806,7 +4806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffb6ca6-d04a-4a19-b738-00e3bc54a843")
-		(property "Reference" "R1"
+		(property "Reference" "R101"
 			(at 72.39 48.26 90)
 			(effects
 				(font
@@ -4867,7 +4867,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "R1")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -4883,7 +4883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ba2a56-8e87-4dca-a33e-9cb6785b96c4")
-		(property "Reference" "C4"
+		(property "Reference" "C104"
 			(at 129.54 31.7562 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C4")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ee718d-f867-4ffe-a507-05fb9b4cd99a")
-		(property "Reference" "D1"
+		(property "Reference" "D101"
 			(at 83.82 57.1499 90)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "D1")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -5059,7 +5059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57692385-2768-4a37-8c23-756c6ac5e6d0")
-		(property "Reference" "C9"
+		(property "Reference" "C109"
 			(at 209.55 31.7562 0)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C9")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5acf55f0-384a-43aa-87a3-2fb4353ae029")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0104"
 			(at 127 54.61 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR04")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60b8b63d-110e-46c3-96b7-bbed054accec")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0106"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -5252,7 +5252,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR06")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5265,9 +5265,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "632aaad4-615d-4a9b-b329-22a0a852ff61")
-		(property "Reference" "H11"
+		(property "Reference" "H110"
 			(at 46.736 86.868 90)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H11")
+					(reference "H110")
 					(unit 1)
 				)
 			)
@@ -5333,7 +5333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c123740-9c59-43e9-b3ff-5e0771c06523")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0112"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR012")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f953b86-fbe0-474d-bd23-69e13aa1bde2")
-		(property "Reference" "U1"
+		(property "Reference" "U101"
 			(at 141.986 44.196 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "U1")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -5490,9 +5490,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74db156a-d7ec-47cf-b1a1-ad27cc0797eb")
-		(property "Reference" "H4"
+		(property "Reference" "H107"
 			(at 46.736 71.628 90)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H4")
+					(reference "H107")
 					(unit 1)
 				)
 			)
@@ -5557,9 +5557,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "797fcc21-b466-47c1-a889-49989b8dc654")
-		(property "Reference" "H8"
+		(property "Reference" "H103"
 			(at 39.116 82.296 90)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H8")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -5625,7 +5625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8207fe55-57d3-40a2-ac45-e031b2e22c73")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0105"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -5675,7 +5675,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR05")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "88eedb8e-4a43-4cf3-98d1-9c4d10026082")
-		(property "Reference" "JP4"
+		(property "Reference" "JP104"
 			(at 185.674 52.832 0)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "JP4")
+					(reference "JP104")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93dd0f8f-dd41-43e5-b89e-fc43125ef65a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0101"
 			(at 62.23 72.39 0)
 			(effects
 				(font
@@ -5817,7 +5817,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR01")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5832,7 +5832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3332d36-aa31-4671-98e1-c4668d0ecfd4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0102"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -5882,7 +5882,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR02")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5898,7 +5898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b69a6c52-900f-4f88-b84d-60cf58e80f0e")
-		(property "Reference" "C6"
+		(property "Reference" "C106"
 			(at 163.83 31.7562 0)
 			(effects
 				(font
@@ -5961,7 +5961,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C6")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -5977,7 +5977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b89813fb-c17e-40f5-ae68-5d71dfccc41f")
-		(property "Reference" "R2"
+		(property "Reference" "R102"
 			(at 118.11 45.72 90)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "R2")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -6051,9 +6051,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d0da3870-46c5-4ebc-b84c-5d8c316e4957")
-		(property "Reference" "H2"
+		(property "Reference" "H105"
 			(at 46.736 61.468 90)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H2")
+					(reference "H105")
 					(unit 1)
 				)
 			)
@@ -6119,7 +6119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d464973c-e65a-4e7d-9ad7-afe65696812d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0111"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR011")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6185,7 +6185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd801023-1dab-4c6c-9ffe-54f81edd37d2")
-		(property "Reference" "C8"
+		(property "Reference" "C108"
 			(at 194.31 31.7562 0)
 			(effects
 				(font
@@ -6248,7 +6248,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C8")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6263,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "dda2d405-8606-4f17-b983-91af185eac4d")
-		(property "Reference" "JP3"
+		(property "Reference" "JP103"
 			(at 185.674 49.022 0)
 			(effects
 				(font
@@ -6325,7 +6325,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "JP3")
+					(reference "JP103")
 					(unit 1)
 				)
 			)
@@ -6338,9 +6338,9 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e7eb5c72-a882-449b-93d7-9b59da00ce15")
-		(property "Reference" "H3"
+		(property "Reference" "H106"
 			(at 46.736 66.548 90)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "H3")
+					(reference "H106")
 					(unit 1)
 				)
 			)
@@ -6406,7 +6406,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ee2d47bb-cc89-4c7a-a71b-05a10245ace3")
-		(property "Reference" "JP2"
+		(property "Reference" "JP102"
 			(at 167.64 87.122 0)
 			(effects
 				(font
@@ -6468,7 +6468,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "JP2")
+					(reference "JP102")
 					(unit 1)
 				)
 			)
@@ -6484,7 +6484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dea7f2-863a-43b4-bf1e-5a75b2ce50d7")
-		(property "Reference" "C7"
+		(property "Reference" "C107"
 			(at 179.07 31.7562 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C7")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -6563,7 +6563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b87892-91bc-4e89-8870-8bb5e2d19f44")
-		(property "Reference" "D2"
+		(property "Reference" "D102"
 			(at 99.06 57.1499 90)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "D2")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa4cd493-b6a3-40a5-af6f-07b9cb12831c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0110"
 			(at 184.15 99.06 0)
 			(effects
 				(font
@@ -6709,7 +6709,7 @@
 		(instances
 			(project "AC_PowerController"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR010")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6726,7 +6726,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb2775c3-b816-4d3b-8765-c84de7a6209c")
-		(property "Reference" "J5"
+		(property "Reference" "J101"
 			(at 208.28 53.3399 0)
 			(effects
 				(font
@@ -6795,7 +6795,7 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "J5")
+					(reference "J101")
 					(unit 1)
 				)
 			)

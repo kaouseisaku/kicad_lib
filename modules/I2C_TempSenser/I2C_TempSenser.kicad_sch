@@ -5,29 +5,59 @@
 	(uuid "9f70de02-8abd-4ef2-8255-fff841c2ad6f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "00_Make:P82B715"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "U"
+				(at -11.684 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "P82B715"
+				(at -11.684 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.016 20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0.254 17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C Bus Buffer"
 				(at 0 0 0)
 				(effects
 					(font
@@ -36,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "ki_fp_filters" "DIP* PDIP* SOIC* SO* TSSOP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,138 +75,62 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "P82B715_0_1"
 				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
+			)
+			(symbol "P82B715_1_0"
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "Sy"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
+				(pin no_connect line
+					(at -8.89 -12.7 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type outline)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+			)
+			(symbol "P82B715_1_1"
+				(pin no_connect line
+					(at -8.89 -10.16 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -191,10 +145,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
+				(pin bidirectional line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "Lx"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,10 +163,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "Sx"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,10 +181,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -238,6 +192,144 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "Ly"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -382,15 +474,16 @@
 				)
 			)
 		)
-		(symbol "Interface:PCA9306"
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 2.1941 -12.7 0)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -398,8 +491,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PCA9306YZTR"
-				(at 2.1941 -15.24 0)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -407,8 +500,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm"
-				(at -10.16 8.89 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,25 +509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/pca9306.pdf"
-				(at -15.494 26.416 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator"
-				(at -14.224 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Dual bidirectional I2C Bus and SMBus voltage level translator"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -443,7 +518,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SSOP*2.95x2.8mm*P0.65mm* VSSOP*2.3x2mm*P0.5mm* X2SON*1.4x1mm*P0.35mm*"
+			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -452,49 +527,74 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCA9306_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "PCA9306_1_1"
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,35 +602,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 12.7 270)
-					(length 2.54)
-					(name "VREF1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 12.7 270)
-					(length 2.54)
-					(name "VREF2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,17 +620,103 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SCL1"
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,53 +724,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SCL2"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SDA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SDA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,104 +1564,116 @@
 		)
 	)
 	(junction
-		(at 245.11 53.34)
+		(at 124.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08d6baa1-7d8e-495c-895a-adb67b4722b0")
+		(uuid "00266759-761c-4549-b454-193879553922")
 	)
 	(junction
-		(at 245.11 48.26)
+		(at 182.88 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10a5e243-2751-4b0f-87cc-76f08650dd24")
+		(uuid "3cb12a4f-5a51-4b4e-9bf4-5600a9975368")
 	)
 	(junction
-		(at 181.61 53.34)
+		(at 95.25 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "205ca032-5759-4076-8351-e1124fac1fdd")
+		(uuid "508c1287-079f-4b06-a6ec-a8ac2918954f")
 	)
 	(junction
-		(at 181.61 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "354078f3-83fc-4e54-a6af-923fbd2db310")
-	)
-	(junction
-		(at 207.01 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f313f1b-edf2-470d-947c-4ccccaf67176")
-	)
-	(junction
-		(at 232.41 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50d7217f-293f-47e3-b86c-8ff1267d888c")
-	)
-	(junction
-		(at 194.31 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c483370-2a70-4479-987e-0157fa81aac0")
-	)
-	(junction
-		(at 83.82 48.26)
+		(at 110.49 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d27ef98-28ac-4ccb-bbd1-2ec167bf6b54")
 	)
 	(junction
-		(at 232.41 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "779c929c-1aec-4dec-b67f-6e94ded099dc")
-	)
-	(junction
-		(at 95.25 58.42)
+		(at 121.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9632c959-d5d7-43ea-a9a6-0f4532d5b11e")
 	)
 	(junction
-		(at 194.31 48.26)
+		(at 81.28 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f7c57ab-b2b6-403d-8cf4-6e01a35e8d57")
+		(uuid "bb515e9c-056a-4cd9-b54d-7f32ccc4e4b6")
 	)
 	(junction
-		(at 207.01 53.34)
+		(at 81.28 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e16c2db6-0b99-4ae5-8bef-e03cad75aea4")
+		(uuid "e2095110-19ef-4dae-8ceb-25e4f783d082")
+	)
+	(junction
+		(at 132.08 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbca3a1-eb9c-4701-8708-e35b2a61c208")
+	)
+	(junction
+		(at 95.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47290ce-ad2b-4e1b-b9cf-5f7b40dea751")
 	)
 	(no_connect
-		(at 175.26 45.72)
+		(at 208.28 101.6)
 		(uuid "93414fb7-4d0f-4c2f-b544-5ed5119b6cfc")
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 139.7 48.26)
+			(xy 182.88 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08c3095b-baf5-44f8-b32f-0c5ba0499edf")
+		(uuid "080043da-99e9-4400-a80b-0cea4bb4d198")
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 194.31 48.26)
+			(xy 62.23 95.25) (xy 71.12 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "165df88c-8ff4-443e-8c40-6f868ce452c8")
+		(uuid "11560807-8cb0-4a3d-be8a-3ab6a19c94d3")
 	)
 	(wire
 		(pts
-			(xy 102.87 48.26) (xy 106.68 48.26)
+			(xy 182.88 80.01) (xy 182.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c2e058-cde4-41d8-9522-35478c55de61")
+	)
+	(wire
+		(pts
+			(xy 130.81 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef4d798-914b-439c-814b-5c5a106cb355")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204e50b1-954f-47ff-b0c0-43798049d5e8")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1539,37 +1683,57 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 63.5 48.26)
+			(xy 182.88 82.55) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28a6fe20-d3ad-4359-ae90-bda5c5462f45")
+		(uuid "2a088ba9-d5be-41e8-b33e-6efd050c972a")
 	)
 	(wire
 		(pts
-			(xy 207.01 53.34) (xy 194.31 53.34)
+			(xy 132.08 101.6) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e2d54fe-b041-45e6-86ad-adfe265bee94")
+		(uuid "2def0b3d-a2aa-4076-a752-2bd5e6d28119")
 	)
 	(wire
 		(pts
-			(xy 139.7 48.26) (xy 139.7 45.72)
+			(xy 168.91 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4100c211-87ac-40d6-94ab-f1bdb2a47412")
+		(uuid "316ceda9-4fb0-49ea-ad75-6b43591fd652")
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 106.68 45.72)
+			(xy 144.78 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3395ad2c-35a9-42a4-92e2-ab68fa78ed36")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef00870-a7c3-4246-bbfd-3eaf236da448")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1579,27 +1743,57 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 48.26) (xy 257.81 48.26)
+			(xy 210.82 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "448a1697-8ee6-4fc4-95ae-b55268a081b8")
+		(uuid "43686fbf-70e8-4677-b294-7c3accc3f6f2")
 	)
 	(wire
 		(pts
-			(xy 232.41 53.34) (xy 245.11 53.34)
+			(xy 171.45 82.55) (xy 162.56 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49fb251e-f6e8-48d0-81b4-dc653663ae34")
+		(uuid "47ddf334-9c1e-4184-9f72-c9f4048d2f63")
 	)
 	(wire
 		(pts
-			(xy 97.79 58.42) (xy 95.25 58.42)
+			(xy 81.28 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bde607-721b-40a9-ac7c-3e4c14806c28")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49df155a-24d4-45a2-ab9d-726e0ffe860b")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a35aac5-01ed-4897-9521-43983bd409da")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1803,37 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 63.5 50.8)
+			(xy 81.28 102.87) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8e53b-6a65-472d-b06e-68fd57b79b29")
+	)
+	(wire
+		(pts
+			(xy 210.82 86.36) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53088dba-3d57-4261-a544-c6c9d40b766a")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d565d6-d827-429d-a648-a86a51cf441c")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1619,47 +1843,37 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 48.26) (xy 245.11 48.26)
+			(xy 95.25 102.87) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ba2ccf0-b51e-4200-af74-72a8b5063f14")
+		(uuid "71f2f0e7-455a-44bc-aa49-ea313d5d0f9b")
 	)
 	(wire
 		(pts
-			(xy 219.71 53.34) (xy 207.01 53.34)
+			(xy 81.28 100.33) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73dbfe4d-3348-4537-b49a-8a94a2281166")
+		(uuid "72b1e05b-aa6c-4972-a127-1469e3ff7a30")
 	)
 	(wire
 		(pts
-			(xy 110.49 50.8) (xy 116.84 50.8)
+			(xy 132.08 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8188e7bc-7a8d-47c0-809e-e99e3bea734d")
+		(uuid "7a4d58de-2754-4aea-a08e-7e4b82f0cd1d")
 	)
 	(wire
 		(pts
-			(xy 143.51 50.8) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82fa4171-0959-46bc-9eb5-6a4759f4f38d")
-	)
-	(wire
-		(pts
-			(xy 76.2 45.72) (xy 63.5 45.72)
+			(xy 95.25 92.71) (xy 81.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1669,27 +1883,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 194.31 53.34)
+			(xy 144.78 85.09) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90c4d137-c707-4d31-a73c-c0f14a5912ae")
+		(uuid "931467dd-adf6-4fc4-924c-d1a220451039")
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 154.94 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c57bc8-44a9-473c-b01f-b696c2eeb23e")
-	)
-	(wire
-		(pts
-			(xy 83.82 48.26) (xy 83.82 45.72)
+			(xy 110.49 96.52) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1699,27 +1903,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 53.34) (xy 137.16 53.34)
+			(xy 168.91 104.14) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0c62de1-3af9-4348-b01a-21784d8d7b56")
+		(uuid "aaf5a08f-f5ea-440f-979f-f2c05dc0eaef")
 	)
 	(wire
 		(pts
-			(xy 148.59 45.72) (xy 154.94 45.72)
+			(xy 64.77 107.95) (xy 64.77 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2353f17-9c0d-40e1-9ec6-145e9d8831da")
+		(uuid "b5eee2b3-1cae-424c-bf5c-c9deb747513b")
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 83.82 50.8)
+			(xy 110.49 96.52) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1729,47 +1933,47 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 116.84 53.34)
+			(xy 182.88 82.55) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f5f53d-500b-41b4-b6fb-e919af997483")
+		(uuid "bdfa1f09-fa8c-4133-b428-aad518c0fe9c")
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 194.31 48.26)
+			(xy 95.25 100.33) (xy 95.25 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c82717c0-55b5-484c-96bf-0b7e0509fa7a")
+		(uuid "cfadf5d6-ebd4-4f33-85a6-6e71027a6a70")
 	)
 	(wire
 		(pts
-			(xy 245.11 53.34) (xy 257.81 53.34)
+			(xy 132.08 106.68) (xy 124.46 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd305970-3951-4a5f-aaee-1b5c754ed72d")
+		(uuid "d34d0114-6f8a-40a1-a034-d677ca0e8a34")
 	)
 	(wire
 		(pts
-			(xy 219.71 48.26) (xy 207.01 48.26)
+			(xy 71.12 95.25) (xy 71.12 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d31d4bbb-a04f-4e3c-8ecd-17acead9ad07")
+		(uuid "db3ba326-e640-479a-bc22-adc6486f256f")
 	)
 	(wire
 		(pts
-			(xy 69.85 53.34) (xy 63.5 53.34)
+			(xy 68.58 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 87.63 50.8)
+			(xy 110.49 99.06) (xy 114.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1789,7 +1993,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 48.26) (xy 83.82 48.26)
+			(xy 81.28 95.25) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d1fade-baf0-410f-a6c0-b2a0583b06fa")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1797,8 +2011,39 @@
 		)
 		(uuid "f5d0e75b-428a-436f-a8d2-b22f3affc0af")
 	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8e696f-2627-474d-b818-995d59f6b069")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe854dbc-d9a7-42d9-ac8f-c0abd8f1fae4")
+	)
 	(label "SCL2"
-		(at 143.51 50.8 180)
+		(at 144.78 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "462fb08c-84fb-4f12-8fd7-de337c6d07b9")
+	)
+	(label "SDA1"
+		(at 171.45 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1806,10 +2051,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "092d8396-dd8e-4f50-aff1-2dcd40647953")
+		(uuid "57eaf77a-e752-4ebb-9c9d-e71b36cb0c11")
 	)
-	(label "SDA2"
-		(at 148.59 45.72 0)
+	(label "SDA1"
+		(at 175.26 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1819,19 +2064,8 @@
 		)
 		(uuid "5c9ab9cd-157c-4458-b3d9-d0d892c9b785")
 	)
-	(label "SCL1"
-		(at 110.49 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "608f8fbe-a2ca-4a04-9dd2-e30142d4242e")
-	)
-	(label "SCL1"
-		(at 69.85 50.8 180)
+	(label "SCL2"
+		(at 68.58 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1841,8 +2075,19 @@
 		)
 		(uuid "666659e2-3d8d-4a48-862d-16f53764dbf4")
 	)
-	(label "SDA1"
-		(at 69.85 53.34 180)
+	(label "SCL2"
+		(at 144.78 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7b4a1d-bd39-4b35-871c-ce646a8b74aa")
+	)
+	(label "SDA2"
+		(at 68.58 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1853,18 +2098,7 @@
 		(uuid "6c0b3ef1-7b48-4055-b681-59fb0312a705")
 	)
 	(label "SDA2"
-		(at 143.51 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3c11f9e-75e5-4937-9d61-1cb1cd4c49ae")
-	)
-	(label "SDA1"
-		(at 110.49 53.34 0)
+		(at 144.78 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1872,10 +2106,43 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d54e8d2f-97a3-4a69-bda9-cf1fdbc40b3c")
+		(uuid "8a7339ae-90af-469c-a04b-a9181f433603")
 	)
-	(label "SCL2"
-		(at 148.59 48.26 0)
+	(label "SCL1"
+		(at 171.45 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ce6c5ea-8236-4f8e-80aa-b43d38de59a9")
+	)
+	(label "SDA1"
+		(at 210.82 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd9fdd57-aa42-4640-a7c8-e815f7f92713")
+	)
+	(label "SCL1"
+		(at 210.82 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8a9f69d-65ab-42d0-9434-25974a5b9c63")
+	)
+	(label "SCL1"
+		(at 175.26 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1885,36 +2152,36 @@
 		)
 		(uuid "ee061502-c085-47ee-9e35-4ea815edddbe")
 	)
+	(label "SDA2"
+		(at 144.78 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f944637c-137b-43c3-a16c-40a1b69b77e0")
+	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 194.31 50.8 0)
+		(lib_id "Connector:TestPoint")
+		(at 62.23 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bea4d29-280b-44f6-b198-c2589e8ab700")
-		(property "Reference" "C102"
-			(at 196.85 49.5362 0)
+		(uuid "024b4003-f227-49ea-b1ce-4be3bb744852")
+		(property "Reference" "TP103"
+			(at 54.61 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "104C10"
-			(at 196.85 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 194.31 50.8 0)
+		(property "Value" "P5V"
+			(at 55.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,8 +2189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 194.31 50.8 0)
+		(property "Footprint" "0_Pad:Oval_Pad_1.0x4.0mm"
+			(at 62.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,8 +2198,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.31 50.8 0)
+		(property "Datasheet" "~"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,15 +2217,142 @@
 			)
 		)
 		(pin "1"
-			(uuid "9da8e54f-9f0a-4b71-a6a6-1932bd041d0c")
+			(uuid "78f5e051-e3e0-4a67-a5be-cd55cddbfa60")
 		)
-		(pin "2"
-			(uuid "ef004ca7-0435-4004-b2e7-f4f57948f8ac")
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "TP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0744fb49-bcc8-46d9-a43c-b2ff70cc546d")
+		(property "Reference" "TP101"
+			(at 54.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V"
+			(at 55.88 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Pad:Oval_Pad_1.0x4.0mm"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83880ddf-5c08-4ede-8de1-5929a1f453f1")
 		)
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C102")
+					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd2c093-936a-449d-ba0b-73f9e2dc9781")
+		(property "Reference" "TP104"
+			(at 54.61 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V"
+			(at 55.88 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Pad:Oval_Pad_1.0x4.0mm"
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac9cdcd0-c840-4dee-8ddc-12c8217af803")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "TP104")
 					(unit 1)
 				)
 			)
@@ -1957,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 106.68 45.72 0)
+		(at 134.62 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1965,8 +2368,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0faa4d62-0782-4a13-8d83-782cea4847d4")
-		(property "Reference" "#PWR0105"
-			(at 106.68 49.53 0)
+		(property "Reference" "#PWR0106"
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2378,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.68 40.64 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 45.72 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 45.72 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 106.68 45.72 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,24 +2418,42 @@
 		(instances
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 38.1 0)
+		(lib_id "Device:R_Small")
+		(at 121.92 83.82 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "165e572c-3085-48a7-b2de-0fc2142c26d7")
-		(property "Reference" "#PWR0108"
-			(at 129.54 41.91 0)
+		(dnp yes)
+		(uuid "116971ab-2048-465f-aa9e-7f0ce8aad550")
+		(property "Reference" "R103"
+			(at 119.634 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 125.222 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,16 +2461,78 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 33.02 0)
+		(property "Datasheet" "~"
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RK73Z1HTTC"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a792f7c-6317-453c-b122-563412b3fc14")
+		)
+		(pin "1"
+			(uuid "dc898a5b-7d88-4f1b-bd50-301745c4d991")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da0a63a-dac7-4429-b358-19c47590ae55")
+		(property "Reference" "#PWR0114"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 38.1 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 38.1 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,8 +2549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,46 +2559,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "58754744-d73d-47b2-9ffb-4da7dfd0bf75")
+			(uuid "3c555897-7fc3-4fb1-9b96-8bba22195d10")
 		)
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0108")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 232.41 48.26 0)
+		(lib_id "Device:C_Small")
+		(at 95.25 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28acb723-d7b3-42fd-afa8-15b2c34d84ee")
-		(property "Reference" "#PWR0115"
-			(at 232.41 52.07 0)
+		(uuid "2170811a-1321-431b-994b-11db355cc5a8")
+		(property "Reference" "C102"
+			(at 97.79 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 232.41 43.18 0)
+		(property "Value" "104C6P3"
+			(at 97.79 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 95.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2608,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 48.26 0)
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033R60J104KE19D"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d3e8af-238a-4f76-9c6f-6d6b3c0889b0")
+		)
+		(pin "2"
+			(uuid "b4e78574-6a8e-4fb6-967a-5e5880cae8ed")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 218.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28acb723-d7b3-42fd-afa8-15b2c34d84ee")
+		(property "Reference" "#PWR0108"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 48.26 0)
+			(at 218.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,6 +2709,204 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a0ff926-48c2-4070-9ba6-a68ade483485")
+		(property "Reference" "TP105"
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V"
+			(at 55.88 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Pad:Oval_Pad_1.0x4.0mm"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef98f29f-0719-49e1-a9d2-610f360be659")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 113.03 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f9b316b-9b44-4ca9-9c37-8dca48ea5014")
+		(property "Reference" "#PWR0102"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b3dc4b-5003-44c1-9c7b-2db7edf5d3b3")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42332cb4-f4c5-4fe1-820b-ba54497978b1")
+		(property "Reference" "#PWR0115"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06961acf-5bef-4d15-a1c3-a1beefeaa234")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -2154,16 +2914,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface:PCA9306")
-		(at 127 50.8 0)
+		(lib_id "Device:C_Small")
+		(at 81.28 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c2aaf2a-9d49-47cc-9495-748492ab5a5d")
-		(property "Reference" "U102"
-			(at 130.048 62.992 0)
+		(fields_autoplaced yes)
+		(uuid "4a5a9db7-5db6-4e6b-8be9-d2911233b38a")
+		(property "Reference" "C101"
+			(at 83.82 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,8 +2932,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9306YZTR"
-			(at 130.048 65.532 0)
+		(property "Value" "105C10"
+			(at 83.82 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,8 +2941,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm"
-			(at 116.84 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,8 +2950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/pca9306.pdf"
-			(at 111.506 24.384 0)
+		(property "Datasheet" ""
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,8 +2959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator"
-			(at 112.776 26.67 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,34 +2968,25 @@
 				(hide yes)
 			)
 		)
-		(pin "D2"
-			(uuid "5392a250-b3e4-4c11-ba7a-c487b96d5147")
+		(property "Manufacturer Product Number" "GRM033R61A105ME44D"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "A1"
-			(uuid "70853d90-5150-4647-aa0a-4928df8f64f4")
+		(pin "1"
+			(uuid "30d76d0f-25b0-41d8-8232-464e8261457d")
 		)
-		(pin "A2"
-			(uuid "2b082198-159a-4a78-b367-6a41a168d3b9")
-		)
-		(pin "B1"
-			(uuid "df433ece-7294-4710-90ad-04ae22ff0a4f")
-		)
-		(pin "C1"
-			(uuid "dd158e44-1383-4d0c-bcbe-c8095f85f9f2")
-		)
-		(pin "C2"
-			(uuid "d20dd6c8-5e34-4ae6-a551-3e99ebc643ed")
-		)
-		(pin "D1"
-			(uuid "9fe23331-d0b2-4147-a5f0-16958c05d5e2")
-		)
-		(pin "B2"
-			(uuid "2ac6f9cf-086d-4f28-a2dc-2229a300f288")
+		(pin "2"
+			(uuid "c745cb82-bea1-450c-89e7-decefa05c1c0")
 		)
 		(instances
-			(project ""
+			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "U102")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2994,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TMP119AIYBGR")
-		(at 165.1 50.8 0)
+		(at 198.12 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2250,7 +3002,7 @@
 		(dnp no)
 		(uuid "4a60c744-b3e0-4381-8998-39bb4434f1d8")
 		(property "Reference" "U103"
-			(at 171.196 60.452 0)
+			(at 204.216 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +3010,7 @@
 			)
 		)
 		(property "Value" "TMP119AIYBGR"
-			(at 177.038 62.992 0)
+			(at 210.058 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +3018,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Texas_DSBGA-6_0.95x1.488mm_Layout2x3_P0.4mm"
-			(at 166.37 59.69 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +3028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp119.pdf"
-			(at 166.37 62.23 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +3038,16 @@
 			)
 		)
 		(property "Description" "Ultra-High Accuracy, Low-Power, Digital Temperature Sensor With SMBus and I2C-Compatible Interface, DSBGA-6"
-			(at 165.1 50.8 0)
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,351 +3083,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a614915-1abf-44ca-b6b9-9c797103a60c")
-		(property "Reference" "#PWR0114"
-			(at 181.61 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd6237b6-671c-49e1-abba-254cdf36aae0")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ba23195-5ff4-49a9-8a56-c7335fc058b3")
-		(property "Reference" "C107"
-			(at 260.35 49.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "104C10"
-			(at 260.35 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 257.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 257.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eda8225-dc15-4631-8003-50180c33e76d")
-		)
-		(pin "2"
-			(uuid "891d1aa0-949a-4cac-95b0-049f1929a4b6")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f30e629-fccc-4365-830b-206d59243f7a")
-		(property "Reference" "C101"
-			(at 184.15 49.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "105C10"
-			(at 184.15 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GRM033R61A105ME44D"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8bebcdf-f085-4df1-a3ad-6421a153737c")
-		)
-		(pin "2"
-			(uuid "c73286e0-a98d-4397-9b85-cdfcec3f8e83")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 207.01 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61af7085-56ca-4d42-8d03-7d505d37c4f6")
-		(property "Reference" "C103"
-			(at 209.55 49.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "104C10"
-			(at 209.55 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 207.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 207.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e12f901e-6218-4eef-bafd-31998bdc832c")
-		)
-		(pin "2"
-			(uuid "6623cd49-3e71-4285-b76f-6e7fd68266b6")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f1a97aa-3e93-4426-afa2-09ebb06b4d73")
-		(property "Reference" "#PWR0113"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 181.61 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0827d002-c164-4081-9749-9f5d0bcb7581")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 245.11 50.8 0)
+		(at 218.44 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2674,8 +3092,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc2726e-0b47-4db6-b97c-e804c869f3b6")
-		(property "Reference" "C106"
-			(at 247.65 49.5362 0)
+		(property "Reference" "C103"
+			(at 220.98 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,8 +3101,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "104C10"
-			(at 247.65 52.0762 0)
+		(property "Value" "104C6P3"
+			(at 220.98 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +3111,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 245.11 50.8 0)
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,8 +3119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 245.11 50.8 0)
+		(property "Datasheet" ""
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +3129,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 50.8 0)
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033R60J104KE19D"
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +3155,7 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C106")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -2736,7 +3163,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 165.1 40.64 0)
+		(at 198.12 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2744,8 +3171,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721acda0-cfc8-4995-b98d-5d47716c3120")
-		(property "Reference" "#PWR0111"
-			(at 165.1 44.45 0)
+		(property "Reference" "#PWR0109"
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +3181,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 165.1 35.56 0)
+			(at 198.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 40.64 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 40.64 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 165.1 40.64 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +3221,7 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0111")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2802,7 +3229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 60.96 0)
+		(at 198.12 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2810,8 +3237,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9059f1-f1a3-4a63-a81a-f19e77058996")
-		(property "Reference" "#PWR0112"
-			(at 165.1 67.31 0)
+		(property "Reference" "#PWR0116"
+			(at 198.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 66.04 0)
+			(at 198.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 60.96 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +3265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 60.96 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 60.96 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,146 +3288,7 @@
 		(instances
 			(project "TestTool"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 58.42 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7cc6ec25-c246-4844-9aa8-8fc368c09565")
-		(property "Reference" "J101"
-			(at 60.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderPAD"
-			(at 60.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "672538f9-b9ce-4022-bf40-48d4a48c07e9")
-		)
-		(pin "3"
-			(uuid "920e8642-4447-4b9f-8c09-e22ba5d9f0f2")
-		)
-		(pin "4"
-			(uuid "c034fe65-961d-46b0-8bb8-c2f0b87d9f89")
-		)
-		(pin "2"
-			(uuid "5519f3e5-7fad-4d24-bc47-42d8702bb2d4")
-		)
-		(instances
-			(project ""
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84f0d159-fcd3-4c6c-923e-ad508fcaf72c")
-		(property "Reference" "#PWR0109"
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08dd8ee3-a9f6-4ec3-b597-7cec56366729")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0109")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3008,16 +3296,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 219.71 50.8 0)
+		(at 132.08 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86de8874-9a7e-487e-9024-36e48da15a2a")
+		(uuid "81c467d5-dd14-4653-a6c5-1a2cce30e562")
 		(property "Reference" "C104"
-			(at 222.25 49.5362 0)
+			(at 134.62 97.7962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,8 +3313,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "104C10"
-			(at 222.25 52.0762 0)
+		(property "Value" "104C6P3"
+			(at 134.62 100.3362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 219.71 50.8 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,8 +3331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 219.71 50.8 0)
+		(property "Datasheet" ""
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3341,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 50.8 0)
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM033R60J104KE19D"
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,10 +3359,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e830989e-b014-4ae4-b9df-294f750a8d6e")
+			(uuid "432992e8-c9d8-4ece-bde2-73f24f9f3b68")
 		)
 		(pin "2"
-			(uuid "ebfea2a9-5028-434b-ac48-4236b4d372cc")
+			(uuid "8532e0b5-d335-47e6-b140-1b018659da01")
 		)
 		(instances
 			(project "I2C_TempSenser"
@@ -3077,8 +3374,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 76.2 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822cd7e2-5829-49d7-b03c-4412df2a0f34")
+		(property "Reference" "FB101"
+			(at 76.1619 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM03BX182SN1D"
+			(at 76.1619 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+			(at 76.2 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08332373-2db2-41cd-aeea-1b8d68201477")
+		)
+		(pin "2"
+			(uuid "e005bc40-9e55-477a-ad80-8d53c3c52e6f")
+		)
+		(instances
+			(project ""
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "FB101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "90fb0360-255d-49e5-8cc0-e0365a5517eb")
+		(property "Reference" "R101"
+			(at 157.734 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 163.322 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RK73Z1HTTC"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9738996-687b-42ed-8981-ba531d795798")
+		)
+		(pin "1"
+			(uuid "acd61e61-27d9-4fd6-abe1-4690c1b44139")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 45.72 0)
+		(at 110.49 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3086,8 +3530,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99267716-00f3-4abc-9f0b-f2d51ab94b60")
-		(property "Reference" "#PWR0103"
-			(at 83.82 49.53 0)
+		(property "Reference" "#PWR0105"
+			(at 110.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3540,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 40.64 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 45.72 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 45.72 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 45.72 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3580,7 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3144,7 +3588,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 58.42 0)
+		(at 121.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3152,8 +3596,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b126f9fc-a980-4445-93b2-0130693d8fb3")
-		(property "Reference" "#PWR0104"
-			(at 95.25 64.77 0)
+		(property "Reference" "#PWR0112"
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 63.5 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 58.42 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 58.42 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 58.42 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,42 +3647,24 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0104")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 232.41 50.8 0)
+		(lib_id "power:+3.3V")
+		(at 130.81 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2f5b639-026e-4a38-867a-519ad494a88a")
-		(property "Reference" "C105"
-			(at 234.95 49.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "104C10"
-			(at 234.95 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 232.41 50.8 0)
+		(uuid "b69332e5-aba3-408c-b20a-1e94b7bf1360")
+		(property "Reference" "#PWR0103"
+			(at 130.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,60 +3672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM033R61A104KE15D"
-			(at 232.41 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 232.41 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "551518b1-99ef-4f82-ad4d-d586651b9ef2")
-		)
-		(pin "2"
-			(uuid "0213cd5d-44fe-40a5-a9f0-e4eef4b88f54")
-		)
-		(instances
-			(project "I2C_TempSenser"
-				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "C105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 124.46 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b46fae1b-acb2-47af-9f5e-29cfdf8e6dd9")
-		(property "Reference" "#PWR0106"
-			(at 124.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 124.46 33.02 0)
+		(property "Value" "+3.3V"
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 38.1 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 38.1 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,8 +3698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,12 +3708,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1089c619-9266-40a5-a734-f386934a00cc")
+			(uuid "1ecc9d44-6590-46f1-94a5-869ae38e8c5d")
 		)
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0106")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3721,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 76.2 45.72 0)
+		(at 95.25 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3355,8 +3729,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c00c3d93-5305-4a67-b204-ca0366a9d924")
-		(property "Reference" "#PWR0101"
-			(at 76.2 49.53 0)
+		(property "Reference" "#PWR0104"
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3739,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 76.2 40.64 0)
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 45.72 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 45.72 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 45.72 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,24 +3779,180 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0101")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 48.26 0)
+		(lib_id "Device:R_Small")
+		(at 193.04 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c646add0-bf51-4879-ac30-c0d46ecf22e8")
+		(property "Reference" "R102"
+			(at 190.754 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "333C1S20"
+			(at 204.978 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0201DR-0733KL"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a56d58a-7fc7-43f9-90f5-d51b7ba9a9aa")
+		)
+		(pin "1"
+			(uuid "7c05a810-550f-4706-8c84-9265332a1953")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 193.04 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c8f23e-827d-44ac-824c-e4369af97d98")
+		(property "Reference" "R105"
+			(at 190.754 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "333C1S20"
+			(at 205.232 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0201DR-0733KL"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54c81678-31f2-4a9a-8ae5-a36881db68d6")
+		)
+		(pin "1"
+			(uuid "fe3bfe7d-c2cb-4aa3-a5a8-4cfd2b78fbe9")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1809efc-1312-4281-a571-ad9ad04a22a5")
-		(property "Reference" "#PWR0102"
-			(at 76.2 54.61 0)
+		(uuid "cfe00e12-9f32-40fb-bdba-173f41f98ae6")
+		(property "Reference" "#PWR0107"
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,17 +3960,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 53.34 0)
+		(property "Value" "+5V"
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 48.26 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3978,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 48.26 0)
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d173ed8-7503-4500-8ccb-f365c433c9b8")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1809efc-1312-4281-a571-ad9ad04a22a5")
+		(property "Reference" "#PWR0111"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +4054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 48.26 0)
+			(at 95.25 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +4068,7 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0102")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3480,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 53.34 0)
+		(at 187.96 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3488,8 +4084,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc4262e1-e517-46ab-a51e-bab6c8edb2e1")
-		(property "Reference" "#PWR0110"
-			(at 154.94 59.69 0)
+		(property "Reference" "#PWR0113"
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +4094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 58.42 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 53.34 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 53.34 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +4121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 53.34 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,42 +4135,39 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0110")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 63.5 0)
+		(lib_id "00_Make:P82B715")
+		(at 160.02 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de32abf2-abd7-41a8-9cc8-495fdc13e0e0")
-		(property "Reference" "#PWR0107"
-			(at 127 69.85 0)
+		(uuid "e441df7d-4697-4db3-a80b-0adb1acdc5ee")
+		(property "Reference" "U102"
+			(at 148.844 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 127 68.58 0)
+		(property "Value" "P82B715DR"
+			(at 151.892 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 63.5 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 160.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +4176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 63.5 0)
+			(at 161.036 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,8 +4184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 63.5 0)
+		(property "Description" ""
+			(at 160.274 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,12 +4194,112 @@
 			)
 		)
 		(pin "1"
-			(uuid "43372f65-8b9f-4a45-824d-e38b981b5e2d")
+			(uuid "170355b7-2996-4c52-a8ff-537d9b691910")
+		)
+		(pin "8"
+			(uuid "46a71fc5-9f35-434b-bc12-3bf9b435d117")
+		)
+		(pin "2"
+			(uuid "9e191407-c762-4b9b-83e8-b2e7c8aa8f20")
+		)
+		(pin "3"
+			(uuid "136b6f59-c0b6-47d3-956f-1c7aac269339")
+		)
+		(pin "4"
+			(uuid "22cf21b3-6022-4be8-aabc-36475b256fad")
+		)
+		(pin "5"
+			(uuid "3e5245d6-6c18-476c-bf6a-cc0b4f5bdd93")
+		)
+		(pin "6"
+			(uuid "08dd1074-cbbc-4898-9193-7c2743006469")
+		)
+		(pin "7"
+			(uuid "fdadd9bd-6962-444e-81db-93f281f3b7b2")
 		)
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0107")
+					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 85.09 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "eaea6c60-120c-4f18-b711-dc9a87a60094")
+		(property "Reference" "R104"
+			(at 157.734 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 163.322 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RK73Z1HTTC"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91e74651-c040-4073-8c7a-134252f44b69")
+		)
+		(pin "1"
+			(uuid "e0c7c4ca-3ebd-4eeb-a321-b00a773c8bb4")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -3614,7 +4307,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 53.34 0)
+		(at 218.44 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3622,8 +4315,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee78aaae-31fd-4618-bbba-de0ea4915dc7")
-		(property "Reference" "#PWR0116"
-			(at 232.41 59.69 0)
+		(property "Reference" "#PWR0110"
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +4325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 58.42 0)
+			(at 218.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +4334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 53.34 0)
+			(at 218.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +4343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 53.34 0)
+			(at 218.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +4352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 53.34 0)
+			(at 218.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +4366,72 @@
 		(instances
 			(project "I2C_TempSenser"
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
-					(reference "#PWR0116")
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4035039-8c20-4804-bd25-c266549de726")
+		(property "Reference" "TP102"
+			(at 54.61 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V"
+			(at 55.88 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Pad:Oval_Pad_1.0x4.0mm"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "221abcb2-5aef-4a22-9a93-97fd5a607244")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "TP102")
 					(unit 1)
 				)
 			)
@@ -3681,7 +4439,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
-		(at 95.25 50.8 0)
+		(at 121.92 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3690,7 +4448,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4fd4658-25ae-46b8-8e76-9ad38035a5c5")
 		(property "Reference" "U101"
-			(at 95.25 40.64 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +4456,7 @@
 			)
 		)
 		(property "Value" "TPS7A2033DQN"
-			(at 95.25 43.18 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +4464,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
-			(at 95.25 41.91 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +4473,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
-			(at 95.25 38.1 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +4482,16 @@
 			)
 		)
 		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
-			(at 95.25 50.8 0)
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,6 +4518,72 @@
 			(project ""
 				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
 					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0bccec-1135-405f-b2e4-eb72b83b96bc")
+		(property "Reference" "#PWR0101"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a746d37f-21c5-4370-a959-80a3606a25a4")
+		)
+		(instances
+			(project "I2C_TempSenser"
+				(path "/9f70de02-8abd-4ef2-8255-fff841c2ad6f"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
